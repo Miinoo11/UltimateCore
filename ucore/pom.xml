@@ -31,15 +31,25 @@
             <version>8.4.0</version>
         </dependency>
         <dependency>
+            <groupId>me.clip</groupId>
+            <artifactId>placeholderapi</artifactId>
+            <version>2.10.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>dev.miinoo</groupId>
             <artifactId>ucore-adapter</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>me.clip</groupId>
-            <artifactId>placeholderapi</artifactId>
-            <version>2.10.10</version>
-            <scope>provided</scope>
+            <groupId>dev.miinoo</groupId>
+            <artifactId>ucore-1_8_R1</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.miinoo</groupId>
+            <artifactId>ucore-1_8_R2</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
 
@@ -49,6 +59,17 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <!-- Putting this configuration only in api/ because otherwise it would create a javadoc folder for each
+                     subproject that would not get removed with the clean task -->
+                <configuration>
+                    <outputDirectory>${project.basedir}/javadocs</outputDirectory>
+                    <reportOutputDirectory>${project.basedir}/javadocs</reportOutputDirectory>
+                    <destDir>${project.basedir}/javadocs</destDir>
+                </configuration>
             </plugin>
         </plugins>
     </build>

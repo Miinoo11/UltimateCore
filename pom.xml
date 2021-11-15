@@ -18,6 +18,7 @@
         <module>adapter</module>
         <module>1_8_R1</module>
         <module>1_8_R2</module>
+        <module>1_8_R3</module>
     </modules>
 
     <repositories>
