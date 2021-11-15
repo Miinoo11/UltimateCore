@@ -1,4 +1,4 @@
-package dev.miinoo.ucore.version;
+package dev.miinoo.ucore.menu;
 
 /**
  * @author Miinoo_

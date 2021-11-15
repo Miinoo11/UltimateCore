@@ -1,8 +1,8 @@
 package dev.miinoo.ucore.menu.gui.anvil;
 
-import dev.miinoo.ucore.version.AnvilUI;
-import dev.miinoo.ucore.version.UIElement;
-import dev.miinoo.ucore.version.UIItem;
+import dev.miinoo.ucore.menu.AnvilUI;
+import dev.miinoo.ucore.menu.UIElement;
+import dev.miinoo.ucore.menu.UIItem;
 import net.minecraft.server.v1_8_R1.*;
 import org.apache.commons.lang.Validate;
 import org.bukkit.craftbukkit.v1_8_R1.entity.CraftPlayer;
