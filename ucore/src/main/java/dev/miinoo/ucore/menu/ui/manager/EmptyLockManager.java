@@ -5,7 +5,7 @@ package dev.miinoo.ucore.menu.ui.manager;
  *
  */
 
-import dev.miinoo.ucore.menu.ui.LockManager;
+import dev.miinoo.ucore.menu.manager.LockManager;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 

@@ -1,17 +1,12 @@
 package dev.miinoo.ucore.menu.ui.gui;
 
-/**
- * @author DotClass
- *
- */
-
 import dev.miinoo.ucore.UCore;
-import dev.miinoo.ucore.menu.ui.Dimension;
+import dev.miinoo.ucore.menu.Dimension;
+import dev.miinoo.ucore.menu.UI;
+import dev.miinoo.ucore.menu.UIElement;
+import dev.miinoo.ucore.menu.UIItem;
+import dev.miinoo.ucore.menu.manager.UIs;
 import dev.miinoo.ucore.menu.ui.Permissions;
-import dev.miinoo.ucore.menu.ui.UIs;
-import dev.miinoo.ucore.menu.ui.ui.UI;
-import dev.miinoo.ucore.menu.ui.ui.UIElement;
-import dev.miinoo.ucore.menu.ui.ui.UIItem;
 import org.apache.commons.lang.Validate;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -102,7 +97,7 @@ public class GUI implements UI {
 
 	protected void build(int slot, UIElement element, int xMin, int yMin, int xMax, int yMax) {
 		if (element.isEnabled(player)) {
-			Dimension dimension = element.getSize();
+			Dimension dimension = (Dimension) element.getSize();
 			int x = slot % 9;
 			int y = slot / 9;
 			UIItem[][] uiitems = element.getItems();
@@ -147,7 +142,7 @@ public class GUI implements UI {
 		int y = slot / 9;
 		for (Entry<Integer, UIElement> entry : elements.entrySet()) {
 			UIElement element = entry.getValue();
-			Dimension dimension = element.getSize();
+			Dimension dimension = (Dimension) element.getSize();
 			int eslot = entry.getKey();
 			int ex = eslot % 9;
 			int ey = eslot / 9;
@@ -179,7 +174,7 @@ public class GUI implements UI {
 		for (Entry<Integer, UIElement> entry : elements.entrySet()) {
 			UIElement element = entry.getValue();
 			int slot = entry.getKey();
-			Dimension size = element.getSize();
+			Dimension size = (Dimension) element.getSize();
 			int width = size.getWidth();
 			int height = size.getHeight();
 			ItemStack[][] items = new ItemStack[height][width];
@@ -200,7 +195,7 @@ public class GUI implements UI {
 	}
 	
 	public void call(int slot, UIElement element) {
-		Dimension size = element.getSize();
+		Dimension size = (Dimension) element.getSize();
 		int width = size.getWidth();
 		int height = size.getHeight();
 		ItemStack[][] items = new ItemStack[height][width];

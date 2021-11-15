@@ -1,6 +1,6 @@
 package dev.miinoo.ucore;
 
-import dev.miinoo.ucore.menu.ui.UIs;
+import dev.miinoo.ucore.menu.manager.UIs;
 import dev.miinoo.ucore.menu.ui.manager.EmptyLockManager;
 import dev.miinoo.ucore.sidebar.SidebarAPI;
 import dev.miinoo.ucore.version.VersionMatcher;

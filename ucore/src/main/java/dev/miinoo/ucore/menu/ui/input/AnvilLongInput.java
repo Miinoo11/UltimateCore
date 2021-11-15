@@ -1,15 +1,10 @@
 package dev.miinoo.ucore.menu.ui.input;
 
-/**
- * @author DotClass
- *
- */
-
 import com.cryptomorin.xseries.XMaterial;
 import dev.miinoo.ucore.UCore;
+import dev.miinoo.ucore.menu.AnvilUI;
 import dev.miinoo.ucore.menu.item.Items;
 import dev.miinoo.ucore.menu.ui.gui.GUIItem;
-import dev.miinoo.ucore.menu.ui.ui.AnvilUI;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
@@ -23,7 +18,7 @@ public class AnvilLongInput extends GUIInput<Long> {
 
 	@Override
 	void get(Player player, Long value, Consumer<Long> input) {
-		AnvilUI gui = UCore.getWRAPPER().createAnvilUI(player);
+		AnvilUI gui = (AnvilUI) UCore.getWRAPPER().createAnvilUI(player);
 		gui.setItem(0, new GUIItem(Items.createItem(XMaterial.PAPER.parseMaterial())
 				.setDisplayName(value == null ? "Zahl eingeben" : value.toString()).getItem()));
 		gui.setItem(2, new GUIItem(Items.createItem(XMaterial.BARRIER.parseMaterial()).setDisplayName("§4❌").getItem())

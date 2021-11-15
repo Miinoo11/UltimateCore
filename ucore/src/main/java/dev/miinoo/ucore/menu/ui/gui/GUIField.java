@@ -1,17 +1,13 @@
 package dev.miinoo.ucore.menu.ui.gui;
 
-import dev.miinoo.ucore.menu.ui.Dimension;
-import dev.miinoo.ucore.menu.ui.ui.UIField;
-import dev.miinoo.ucore.menu.ui.ui.UIItem;
+import dev.miinoo.ucore.menu.Dimension;
+import dev.miinoo.ucore.menu.UIField;
+import dev.miinoo.ucore.menu.UIItem;
 import org.apache.commons.lang.Validate;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
 import java.util.function.Function;
-
-/**
- * @author DotClass
- */
 
 public class GUIField<E> extends GUIElement implements UIField<E> {
 

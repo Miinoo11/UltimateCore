@@ -1,12 +1,7 @@
 package dev.miinoo.ucore.menu.ui.gui;
 
-/**
- * @author DotClass
- *
- */
-
-import dev.miinoo.ucore.menu.ui.Dimension;
-import dev.miinoo.ucore.menu.ui.ui.UIItem;
+import dev.miinoo.ucore.menu.Dimension;
+import dev.miinoo.ucore.menu.UIItem;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;

@@ -4,6 +4,7 @@ package dev.miinoo.ucore.menu;
  * @author DotClass
  *
  */
+import dev.miinoo.ucore.menu.manager.UIManager;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.inventory.Inventory;

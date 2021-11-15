@@ -5,9 +5,9 @@ package dev.miinoo.ucore.menu.ui.gui;
  *
  */
 
-import dev.miinoo.ucore.menu.ui.Dimension;
-import dev.miinoo.ucore.menu.ui.ui.UIField;
-import dev.miinoo.ucore.menu.ui.ui.UIItem;
+import dev.miinoo.ucore.menu.Dimension;
+import dev.miinoo.ucore.menu.UIField;
+import dev.miinoo.ucore.menu.UIItem;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 

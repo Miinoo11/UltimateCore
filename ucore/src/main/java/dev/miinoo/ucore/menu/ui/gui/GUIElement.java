@@ -1,12 +1,7 @@
 package dev.miinoo.ucore.menu.ui.gui;
 
-/**
- * @author DotClass
- *
- */
-
+import dev.miinoo.ucore.menu.UIElement;
 import dev.miinoo.ucore.menu.ui.Permissions;
-import dev.miinoo.ucore.menu.ui.ui.UIElement;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 

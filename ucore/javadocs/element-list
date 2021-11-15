@@ -1,0 +1,12 @@
+dev.miinoo.ucore
+dev.miinoo.ucore.command
+dev.miinoo.ucore.configuration
+dev.miinoo.ucore.configuration.json
+dev.miinoo.ucore.menu.item
+dev.miinoo.ucore.menu.ui
+dev.miinoo.ucore.menu.ui.callback
+dev.miinoo.ucore.menu.ui.gui
+dev.miinoo.ucore.menu.ui.input
+dev.miinoo.ucore.menu.ui.manager
+dev.miinoo.ucore.sidebar
+dev.miinoo.ucore.version

@@ -5,10 +5,10 @@ package dev.miinoo.ucore.menu.ui.gui;
  *
  */
 
-import dev.miinoo.ucore.menu.ui.Dimension;
-import dev.miinoo.ucore.menu.ui.UIs;
+import dev.miinoo.ucore.menu.Dimension;
+import dev.miinoo.ucore.menu.UIItem;
+import dev.miinoo.ucore.menu.manager.UIs;
 import dev.miinoo.ucore.menu.ui.callback.Callback;
-import dev.miinoo.ucore.menu.ui.ui.UIItem;
 import org.apache.commons.lang.Validate;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;

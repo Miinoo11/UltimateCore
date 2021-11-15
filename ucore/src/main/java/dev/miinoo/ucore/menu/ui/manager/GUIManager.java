@@ -1,8 +1,8 @@
 package dev.miinoo.ucore.menu.ui.manager;
 
+import dev.miinoo.ucore.menu.UI;
 import dev.miinoo.ucore.menu.ui.UIException;
-import dev.miinoo.ucore.menu.ui.UIManager;
-import dev.miinoo.ucore.menu.ui.ui.UI;
+import dev.miinoo.ucore.menu.manager.UIManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;

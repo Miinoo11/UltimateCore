@@ -1,10 +1,5 @@
 package dev.miinoo.ucore.menu.ui.input;
 
-/**
- * @author DotClass
- *
- */
-
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 package dev.miinoo.ucore.menu.ui;
 
-import dev.miinoo.ucore.menu.ui.ui.UI;
+import dev.miinoo.ucore.menu.UI;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
